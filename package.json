@@ -1,0 +1,49 @@
+{
+  "name": "casdoor-svelte-sdk",
+  "version": "0.0.1",
+  "description": "Svelte client SDK for Casdoor",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "svelte": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "prepublishOnly": "npm run build",
+    "dev": "vite dev"
+  },
+  "peerDependencies": {
+    "svelte": "^5.25.6"
+  },
+  "dependencies": {
+    "casdoor-js-sdk": "^0.10.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@tsconfig/svelte": "^5.0.4",
+    "svelte": "^5.25.6",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.5"
+  },
+  "keywords": [
+    "auth",
+    "authentication",
+    "sso",
+    "oauth",
+    "oidc",
+    "casbin",
+    "casdoor",
+    "svelte"
+  ],
+  "author": {
+    "name": "IDerr"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iderr/casdoor-svelte-sdk.git"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
